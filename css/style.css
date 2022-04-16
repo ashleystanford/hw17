@@ -1,4 +1,45 @@
 body{
-    background-color: black;
+    background-color: #161a1b;
     color: white;
+}
+header{
+    background-color:#C4C4C4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+}
+
+.navTop .navItem{
+    display: inline-block;
+}
+.navItem{
+    padding: 10px 20px;
+}
+.navItem a{
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.navTop{
+    margin: 0px;
+
+}
+.logo{
+height: 45px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.npoRedesign{
+    background-image: linear-gradient(to right,rgba(247,247,247,0), rgba(247,247,247,1));
+}
+
+.featuredDesigns{
+    margin-left: 500px;
+    margin-right: 500px;
 }
