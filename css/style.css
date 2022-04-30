@@ -70,9 +70,13 @@ a{
     align-items: center;
 }
 
+.active{
+    display: flex !important;
+}
 
-
-
+.inactive{
+    display: none;
+}
 
 @media only screen and (max-width: 600px) {
     .projectLayout{
