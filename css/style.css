@@ -39,7 +39,7 @@ a{
     background-image: linear-gradient(to right,rgba(247,247,247,0), rgba(247,247,247,1));
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 50%;
+    /* width: 50%; */
     margin-bottom: 48px;
 }
 
@@ -47,7 +47,6 @@ a{
     background-image: linear-gradient(to right, rgba(247,247,247,1),rgba(247,247,247,0));
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 50%;
     margin-bottom: 48px;
 }
 
@@ -58,9 +57,11 @@ a{
 }
 
 .featuredDesigns{
+    margin: 20px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 800px;
 }
 
 
